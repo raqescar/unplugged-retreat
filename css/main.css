@@ -104,42 +104,33 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
-header .header-divider {}
 
 header nav {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
 }
 
 header nav ul {
   display:flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
 
-footer .content-wrapper {}
-.footer-content {}
-
-footer .contact {}
-
-/* --------------------------- Footer Social -*/
-footer .social {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
 footer .social-icons {
   display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer .copyright {}
-
-/* ----------- Home | Main Styles ------------- */
+/* ----------- Home | Mobile Styles ------------- */
 
 /* --- home | hero ---- */
 .hero-area {
@@ -156,6 +147,7 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+
 .form-description {}
 .form {}
 
@@ -166,11 +158,20 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .fontawesome-icon {}
 .features-item-description {}
 
 /* --- home | reviews ---- */
-.reviews .content-wrapper {
+
+.reviews {
   display:flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +179,7 @@ aside {
 }
 
 
-/* ----------- About | Main Styles ------------- */
+/* ----------- About | Mobile Styles ------------- */
 
 /* --- about | mission ---- */
 .mission {
