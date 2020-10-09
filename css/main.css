@@ -87,6 +87,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* ----------- Base Header Styles ------- */
+header .content-wrapper {}
+header .header-divider {}
+header nav ul li {}
+
+/* ----------- Footer Styles ------------- */
+
+  footer .content-wrapper {}
+  .footer-content {}
+
+  footer .contact {}
+
+  footer .social {}
+  footer .social-icons {}
+
+  footer .copyright {}
+
+/* ----------- Home | Main Styles ------------- */
+
+/* --- home | hero ---- */
+.hero-area {}
+
+/* --- home | form ---- */
+.form-description {}
+.form {}
+
+/* --- home | features ---- */
+.features {}
+.fontawesome-icon {}
+.features-item-description {}
+
+/* --- home | reviews ---- */
+.reviews {}
+
+/* ----------- About | Main Styles ------------- */
+
+/* --- about | mission ---- */
+.mission {}
+.mission-content {}
+
+/* --- about | map ---- */
+.map {}
+
+/* --- about | contact ---- */
+.contact-section {}
+.contact-content {}
+
+/* ----------- FAQ | Main Styles ------------- */
+.faq {}
+.faq-content {}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +314,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
