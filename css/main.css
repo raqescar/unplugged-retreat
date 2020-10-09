@@ -108,6 +108,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin:0;
 }
 
 .header-divider {
@@ -137,16 +138,25 @@ footer .content-wrapper {
   width:55%;
 }
 
+footer p {
+  margin:0;
+}
+
 footer .social-icons {
   display:flex;
   justify-content: space-around;
   align-items: center;
+  margin: 40px 0;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .copyright {
+  margin:20px 0;
 }
 
 /* ----------- Home | Mobile Styles ------------- */
@@ -159,6 +169,10 @@ footer .social-icons p {
   flex-flow: row wrap;
 }
 
+.hero-area .content-wrapper {
+  margin: 50px 0;
+}
+
 /* --- home | form ---- */
 aside {
   display:flex;
@@ -166,7 +180,9 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-
+aside .content-wrapper {
+  margin: 25px 0 50px 0;
+}
 .form-description {}
 .form {}
 
@@ -178,6 +194,18 @@ aside {
   flex-flow: row wrap;
 }
 
+.features .content-wrapper {
+  margin:50px 0;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features p {
+  margin:0;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -187,6 +215,7 @@ aside {
 
 .features article {
     width:60%;
+    margin-bottom: 55px;
 }
 
 .fontawesome-icon {}
@@ -201,6 +230,9 @@ aside {
   flex-flow: row wrap;
 }
 
+.reviews .content-wrapper {
+  margin: 50px 0;
+}
 
 
 /* ----------- About | Mobile Styles ------------- */
@@ -212,7 +244,10 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-.mission-content {}
+
+.mission .content-wrapper {
+  margin: 45px 0;
+}
 
 /* --- about | map ---- */
 .map {}
@@ -224,7 +259,9 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-.contact-content {}
+.contact-section .content-wrapper {
+  margin: 50px 0;
+}
 
 /* ----------- FAQ | Main Styles ------------- */
 .faq {
@@ -238,9 +275,12 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 45px 0;
 }
 
-.faq-content {}
+.faq-content {
+  margin: 45px 0;
+}
 
 
 /* ==========================================================================
