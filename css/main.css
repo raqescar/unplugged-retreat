@@ -94,14 +94,14 @@ footer {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 
 header .header-divider {}
@@ -110,7 +110,7 @@ header nav {
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row-wrap;
+    flex-flow: row wrap;
 }
 
 header nav ul {
@@ -125,6 +125,7 @@ footer .content-wrapper {}
 
 footer .contact {}
 
+/* --------------------------- Footer Social -*/
 footer .social {
   display:flex;
   justify-content: center;
@@ -145,7 +146,7 @@ footer .copyright {}
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 
 /* --- home | form ---- */
@@ -153,7 +154,7 @@ aside {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 .form-description {}
 .form {}
@@ -163,18 +164,19 @@ aside {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 .fontawesome-icon {}
 .features-item-description {}
 
 /* --- home | reviews ---- */
-.reviews {
+.reviews .content-wrapper {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
+
 
 /* ----------- About | Main Styles ------------- */
 
@@ -183,7 +185,7 @@ aside {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 .mission-content {}
 
@@ -195,7 +197,7 @@ aside {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 .contact-content {}
 
@@ -204,13 +206,13 @@ aside {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 .faq .content-wrapper {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 
 .faq-content {}
