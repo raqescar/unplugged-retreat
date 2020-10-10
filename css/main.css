@@ -174,10 +174,6 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
-.hero-area .content-wrapper {
-  margin: 50px 0;
-}
-
 /* --- home | form ---- */
 aside {
   display:flex;
@@ -185,11 +181,6 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-aside .content-wrapper {
-  margin: 25px 0 50px 0;
-}
-.form-description {}
-.form {}
 
 /* --- home | features ---- */
 .features {
@@ -197,10 +188,6 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.features .content-wrapper {
-  margin:50px 0;
 }
 
 .features h2 {
@@ -220,14 +207,10 @@ aside .content-wrapper {
 
 .features article {
     width:60%;
-    margin-bottom: 55px;
+    margin-bottom: 30px 0;
 }
 
-.fontawesome-icon {}
-.features-item-description {}
-
 /* --- home | reviews ---- */
-
 .reviews {
   display:flex;
   justify-content: center;
@@ -235,10 +218,14 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
-  margin: 50px 0;
+.reviews h2 {
+  margin-bottom: 40px;
 }
 
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
 
 /* ----------- About | Mobile Styles ------------- */
 
@@ -250,9 +237,6 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
-  margin: 45px 0;
-}
 
 /* --- about | map ---- */
 .map {}
@@ -264,8 +248,9 @@ aside .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
-.contact-section .content-wrapper {
-  margin: 50px 0;
+
+.contact-content p {
+  margin: 0;
 }
 
 /* ----------- FAQ | Mobile Styles ------------- */
@@ -280,7 +265,10 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 45px 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
 }
 
 .faq-content {
@@ -434,7 +422,7 @@ aside .content-wrapper {
      }
 
      .features .features-item-description {
-       width:50%;
+       width:60%;
      }
 
      /* Homepage | Reviews */
@@ -482,6 +470,8 @@ aside .content-wrapper {
     .mission-content {
       display:flex;
       justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
     }
 
     .mission-content p {
@@ -497,10 +487,6 @@ aside .content-wrapper {
       justify-content: space-between;
       align-items: flex-start;
     }
-   }
-
-   @media only screen and (min-width: 1200px) {
-   /*Desktop styles here*/
    }
 
 
