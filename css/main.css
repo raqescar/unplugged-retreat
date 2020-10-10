@@ -223,6 +223,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #1a2c2a;
 }
 
 /* --- home | aside form ---- */
@@ -575,7 +576,9 @@ input[type=button] {
 
     /* Homepage | hero-area */
     .hero-area h1 {
-      width:60%;
+      width:75%;
+      font-size: 3.75em;
+      font-weight: 500;
     }
 
     /* Homepage | Aside */
