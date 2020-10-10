@@ -87,6 +87,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-size:16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .content-wrapper {
   width:90%;
   margin: 50px 0;
