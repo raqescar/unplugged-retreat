@@ -391,7 +391,71 @@ aside .content-wrapper {
     header nav {}
 
     aside .content-wrapper {
-      width:50%;
+      display:flex;
+      justify-content: center;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+       width: 50%;
+       margin: 0;
+     }
+     .features article {
+       width:50%;
+       display: flex;
+       justify-content: center;
+     }
+
+     .features .features-item-description {
+       width:50%;
+     }
+
+     .reviews article {
+       display:flex;
+       justify-content: space-between;
+       align-items: center;
+     }
+
+     .reviews article div {
+       width:50%;
+     }
+
+     .footer-content {
+       display:flex;
+       justify-content: space-between;
+     }
+
+
+   }
+
+/* ------------------- FAQ page - tablet --*/
+
+     .faq .content-wrapper {
+             justify-content: space-between;
+         }
+
+     .faq-content {
+       flex-basis: 40%;
+     }
+
+     .faq h2 {
+       width:100%;
+     }
+
+/* ------------------- About page - tablet --*/
+
+    .mission-content {
+      display:flex;
+      justify-content: space-between;
+    }
+
+    .mission-content p {
+      width:45%;
+    }
+
+    .contact-content {
+      display:flex;
+      justify-content: space-between;
     }
    }
 
