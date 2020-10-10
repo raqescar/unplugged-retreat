@@ -267,6 +267,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #1a2c2a;
 }
 
 .features h2 {
@@ -286,7 +287,7 @@ input[type=button] {
 
 .features article {
     width:60%;
-    margin-bottom: 30px 0;
+    margin: 30px 0;
 }
 
 /* --- home | reviews ---- */
@@ -574,6 +575,10 @@ input[type=button] {
       max-width:960px;
     }
 
+    p {
+      font-size: 1.125em;
+      line-height: 1.5em;
+    }
 
     /* Homepage | hero-area */
     .hero-area h1 {
@@ -605,6 +610,8 @@ input[type=button] {
 
    .features h2 {
      width:90%;
+     font-size: 2.25em;
+     font-weight: 500;
    }
 
    .features article {
