@@ -94,6 +94,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 }
 
 ul,
@@ -139,6 +140,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color:#282828;
 }
 
 header {
@@ -165,7 +167,9 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width:60%;
-
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -181,6 +185,12 @@ footer {
 footer .content-wrapper {
   width:55%;
   margin: 50px 0;
+  text-align:center;
+}
+
+footer h4 {
+  font-size: 1.875em;
+  font-weight: 300;
 }
 
 footer p {
@@ -202,6 +212,7 @@ footer .social-icons p {
 
 footer .copyright {
   margin:20px 0;
+  text-align: center;
 }
 
 /* ----------- Home | Mobile Styles ------------- */
