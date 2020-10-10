@@ -93,6 +93,38 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+     color: #e2e3ed;
+     text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+address {
+ font-style: normal;
 }
 
 .content-wrapper {
@@ -372,8 +404,7 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-
-   @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
    /*Tablet styles here*/
 
    /* General styles */
@@ -426,7 +457,6 @@ aside {
        justify-content: center;
        align-items: center;
        flex-flow: column wrap;
-
      }
 
      .features .features-item-description {
@@ -458,8 +488,6 @@ aside {
      footer .copyright {
        width: 100%;
      }
-
-   }
 
       /*FAQ page*/
      .faq .content-wrapper {
@@ -495,10 +523,11 @@ aside {
       justify-content: space-between;
       align-items: flex-start;
     }
-   }
+
+}
 
 
-   @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
    /*Desktop styles here*/
 
    /* General styles */
@@ -509,7 +538,7 @@ aside {
 
     /* Homepage | hero-area */
     .hero-area h1 {
-      width:70%;
+      width:60%;
     }
 
     /* Homepage | Aside */
