@@ -215,16 +215,22 @@ footer p {
 }
 
 footer .social-icons {
-
+  display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 40px 0;
 }
 
-footer .social-icons p {
+footer .social-icons i {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  font-size: 1.125em;
+  margin: 0 20px;
 }
 
 footer .copyright {
@@ -605,7 +611,6 @@ input[type=button] {
      .footer-content {
        display:flex;
        justify-content: space-between;
-       align-items: center;
      }
 
      footer .contact {
