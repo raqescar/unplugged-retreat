@@ -124,6 +124,10 @@ p {
   line-height: 1.285;
 }
 
+img {
+    width:100%;
+}
+
 address {
  font-style: normal;
 }
@@ -221,9 +225,14 @@ footer .copyright {
 .hero-area {
   display:flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
-  background-color: #1a2c2a;
+  background: url('../img/hero-img.jpg') center no-repeat #1a2c2a;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.hero-area .content-wrapper {
+  margin: 0;
 }
 
 /* --- home | aside form ---- */
@@ -480,6 +489,11 @@ input[type=button] {
       display:none;
     }
 
+    /* Homepage | Hero */
+    .hero-area {
+      min-height: 600px;
+    }
+
     /* Homepage | Aside  */
     aside .content-wrapper {
       margin: 50px 0;
@@ -599,6 +613,7 @@ input[type=button] {
     }
 
     /* Homepage | hero-area */
+
     .hero-area h1 {
       width:75%;
       font-size: 3.75em;
