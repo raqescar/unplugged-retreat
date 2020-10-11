@@ -107,14 +107,20 @@ a {
      text-decoration: none;
 }
 
-h2 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
   font-size: 1.875em;
 }
 
 h3,
 h4 {
-  font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.125em;
 }
@@ -196,17 +202,12 @@ header figure {
 
 footer {
   flex-direction:column;
+  text-align:center;
 }
 
 footer .content-wrapper {
   width:55%;
   margin: 50px 0;
-  text-align:center;
-}
-
-footer h4 {
-  font-size: 1.875em;
-  font-weight: 300;
 }
 
 footer p {
@@ -247,6 +248,10 @@ footer .copyright {
   margin: 0;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+}
+
 /* --- home | aside form ---- */
 aside {
   display:flex;
@@ -254,6 +259,10 @@ aside {
   align-items: center;
   flex-flow: row wrap;
         background-color: #527158;
+}
+
+aside .content-wrapper {
+  margin: 25px 0 50px 0;
 }
 
 aside .form {
@@ -321,10 +330,6 @@ input[type=button] {
   background-color: #2a423a;
 }
 
-.reviews figure {
-  width:47%;
-  display:flex;
-}
 
 .reviews h2 {
   margin-bottom: 40px;
@@ -549,6 +554,11 @@ input[type=button] {
        width:50%;
      }
 
+     .reviews figure {
+       width:47%;
+       display:flex;
+     }
+
      .reviews h3 {
        width:75%;
        margin:0;
@@ -617,12 +627,10 @@ input[type=button] {
 
     h2 {
       font-size: 2.25em;
-      font-weight: 500;
     }
 
     h3 {
       font-size: 1.875em;
-      font-weight: 500;
     }
 
     p {
@@ -630,7 +638,7 @@ input[type=button] {
       line-height: 1.5em;
     }
     /* Header */
-    
+
     header figure {
     width: 30%;
     }
@@ -640,7 +648,6 @@ input[type=button] {
     .hero-area h1 {
       width:75%;
       font-size: 3.75em;
-      font-weight: 500;
     }
 
     /* Homepage | Aside  */
@@ -667,7 +674,6 @@ input[type=button] {
    .features h2 {
      width:90%;
      font-size: 2.25em;
-     font-weight: 500;
    }
 
    /* Homepage | Reviews */
@@ -686,6 +692,9 @@ input[type=button] {
         width: 100%;
     }
 
+    footer h4 {
+      font-size: 1.875em;
+    }
 }
 /* ==========================================================================
    Print styles.
