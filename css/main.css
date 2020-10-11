@@ -125,7 +125,11 @@ p {
 }
 
 img {
-    width:100%;
+    width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 address {
@@ -307,6 +311,11 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+}
+
+.reviews figure {
+  width:47%;
+  display:flex;
 }
 
 .reviews h2 {
@@ -526,7 +535,6 @@ input[type=button] {
      .reviews article {
        display:flex;
        justify-content: space-between;
-       align-items: center;
      }
 
      .reviews article div {
@@ -535,6 +543,7 @@ input[type=button] {
 
      .reviews h3 {
        width:75%;
+       margin:0;
      }
 
      /* Footer */
