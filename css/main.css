@@ -276,7 +276,8 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #1a2c2a;
+  background: url('../img/features-img.jpg') center no-repeat #1a2c2a;
+  background-size: cover;
 }
 
 .features h2 {
