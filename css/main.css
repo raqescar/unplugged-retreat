@@ -310,6 +310,11 @@ input[type=button] {
   margin:0;
 }
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
