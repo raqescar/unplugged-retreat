@@ -188,8 +188,12 @@ header nav {
 
 header nav ul {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width:100%;
+}
+
+header nav ul li {
+  margin-right: 15px;
 }
 
 header figure {
@@ -537,10 +541,6 @@ input[type=button] {
 
     header nav {
       width:25%;
-    }
-
-    header nav ul {
-      justify-content: space-between;
     }
 
     .header-divider {
