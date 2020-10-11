@@ -186,6 +186,14 @@ header nav ul {
   width:100%;
 }
 
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 footer {
   flex-direction:column;
 }
@@ -620,6 +628,11 @@ input[type=button] {
     p {
       font-size: 1.125em;
       line-height: 1.5em;
+    }
+    /* Header */
+    
+    header figure {
+    width: 30%;
     }
 
     /* Homepage | hero-area */
